@@ -2,7 +2,24 @@
 
 .main-center {
     /* border-style: dotted; */
+    /* position: relative; */
+    width: 484px;
+    height: 550px;
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-color: blue;
+    /* left: 250px; */
+}
 
+.main-center * {
+    /* border-style: dotted; */
+}
+.main-center p {
+    padding: 0;
+    margin: 0 auto;
+    width: 185px;
+    /* border-style: dotted; */
+    font-size: small;
 }
 #google-logo {
     background-image: url("../images/google-logo.png");
@@ -10,18 +27,70 @@
     /* border-style: dotted; */
     width: 272px;
     height: 92px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 180px;
+    /* position: relative; */
 }
 #search-form {
-    width: 428px;
-    height: 46px;
-    box-shadow: 0 1px 1px grey;
+    width: 100%;
+    height: auto;
+    border-color: red;
+    /* float: left; */
+    /* margin: 0 auto; */
+    /* border-style: dotted; */
 }
-
+/* #search form input {
+    width: 50px;
+    /* float: left; */
+} */
+#search-form form {
+    border-color: burlywood;
+    /* float: left; */
+    /* width: 80%; */
+}
+#mic-img {
+    background-image: url("../images/mic.png");
+    /* background-repeat: no-repeat; */
+    border-style: dotted;
+    padding: 0%;
+    width: 38px;
+    height: 45px;
+    /* float: left; */
+}
 #search-form input {
     width: 100%;
     height: 44px;
+    box-shadow: 0 1px 5px grey;
     /* border value to 0 to have no visible border the style is being given by the box-shadow attribute in #search-form */
     border: 0; 
+    /* border-color: red; */
+}
+.button-box {
+    width: 337px;
+    margin: 0 auto;
+    border-color: yellow;
+    /* border-style: dashed; */
+    /* padding: 35px 0; */
+    padding-top: 35px;
+    padding-bottom: 30px;
+    /* height: 36px; */
+    /* border-color: red; */
+}
+.buttom {
+    /* border: none; */
+    /* background-color: black; */
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    /* margin: 11px, 4px; */
+    text-align: center;
+    min-width: 54px;
+    height: 36px;
+    padding: 0 16px;
+    margin: 0 4px;
 }
 
 /* 428x44 */
