@@ -4,6 +4,15 @@ The following is my version of the google homepage (easy version) coded from scr
 
 The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
+
+## Steps by step.
+
+* visit google homepage and draw the overall structure on paper to use as a guide.
+* analize the structure of the page to find out how the page is divided and how is needed to be structured.
+* fetch all the images on the page.
+* create structure of the page in html.
+* give style to the page with CSS.
+
 ## Skill demostrated upon completion.
 
 * Positioning div's.

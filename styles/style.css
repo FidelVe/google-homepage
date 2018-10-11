@@ -1,0 +1,27 @@
+/* CSS style for the page */
+
+.main-center {
+    /* border-style: dotted; */
+
+}
+#google-logo {
+    background-image: url("../images/google-logo.png");
+    background-repeat: no-repeat;
+    /* border-style: dotted; */
+    width: 272px;
+    height: 92px;
+}
+#search-form {
+    width: 428px;
+    height: 46px;
+    box-shadow: 0 1px 1px grey;
+}
+
+#search-form input {
+    width: 100%;
+    height: 44px;
+    /* border value to 0 to have no visible border the style is being given by the box-shadow attribute in #search-form */
+    border: 0; 
+}
+
+/* 428x44 */
