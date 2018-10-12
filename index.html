@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <link href='#' rel='stylesheet' type='text/css'>
-      <link href="styles/style.css" rel="stylesheet" type="text/css">
-      <meta charset="utf-8">
-      <title>Google homepage</title>
-    </head>
-    <body>
-        <div class="main-center">
-            <div id="google-logo"></div>
-            <div id="search-form">
-                <form action="#" target="_self" method="GET">
-                    <input type="text" name="search-query">
-                    <div id="mic-img"></div>
-                    <div class="button-box">
-                        <button type="button" class="buttom">Buscar con Google</button>
-                        <button type="button" class="buttom">Me siento con suerte</button>
-                    </div>
-                </form>
-            </div>
-            <p>Ofrecido por Google en: <a href="#">English</a></p>
-        </div>
-        <script src='scripts/main.js'></script>
-    </body>
+  <head>
+<!--    <link href='#' rel='stylesheet' type='text/css'>-->
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <title>Google homepage</title>
+  </head>
+  <body>
+    <div class="main-center">
+      <div id="google-logo">
+      </div>
+<!--
+      <div id="search-form">
+        <form action="#" target="_self" method="GET">
+          <input id="input-1" type="text" name="search-query">
+        </form>
+      </div>
+-->
+      <div id="search-form">
+        <form action="#" target="_self" method="GET">
+            <input id="input-2" type="text" name="search-query">
+            <a href="#"><div id="mic-img"></div></a>
+        </form>
+      </div>
+
+      <div class="button-box">
+        <button type="button" class="buttom">Buscar con Google</button>
+        <button type="button" class="buttom">Me siento con suerte</button>
+      </div>
+      <p>Ofrecido por Google en: <a href="#">English</a></p>
+      <script src='scripts/main.js'></script>
+    </div>
+  </body>
 </html>
